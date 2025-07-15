@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    const gifs = [
+      "https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif",
+      "https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif",
+      "https://media.giphy.com/media/5GoVLqeAOo6PK/giphy.gif",
+      "https://media.giphy.com/media/xT1XGGb3JpoyPeyv6Q/giphy.gif",
+      "https://media.giphy.com/media/l4Jz3a8jO92crUlWM/giphy.gif"
+    ];
+    const randomGif = gifs[Math.floor(Math.random() * gifs.length)];
+    window.location.href = randomGif;
+  </script>
+</head>
+<body>
+  <p>Redirecting to a funny work GIF...</p>
+</body>
+</html>
